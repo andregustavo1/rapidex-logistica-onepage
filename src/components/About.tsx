@@ -28,6 +28,8 @@ const About = () => {
     };
   }, []);
 
+  const whatsappUrl = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Rapidex";
+
   return (
     <section ref={sectionRef} id="sobre" className="section-padding bg-white">
       <div className="container-custom">
@@ -64,7 +66,7 @@ const About = () => {
           </div>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-20">
           <div className="text-center appear-anim p-6 card-hover rounded-lg">
             <div className="flex justify-center mb-4">
               <Map className="w-12 h-12 text-primary" />
@@ -96,6 +98,18 @@ const About = () => {
             <h3 className="text-xl font-semibold mb-2">Atendimento Personalizado</h3>
             <p>Soluções adaptadas às necessidades do seu negócio</p>
           </div>
+        </div>
+        
+        {/* Additional CTA */}
+        <div className="mt-12 text-center appear-anim">
+          <a 
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary inline-block mt-8"
+          >
+            Faça sua Cotação
+          </a>
         </div>
       </div>
     </section>
