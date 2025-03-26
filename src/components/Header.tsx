@@ -24,25 +24,24 @@ const Header = () => {
   return (
     <header 
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white/90 backdrop-blur-sm shadow-md py-3' : 'bg-transparent py-5'
+        scrolled ? 'bg-black/60 backdrop-blur-sm shadow-md py-3' : 'bg-transparent py-5'
       }`}
     >
       <div className="container-custom flex justify-between items-center">
         <div className="flex items-center">
           <span className="text-2xl font-bold text-primary">
             <span className="flex items-center">
-              <Truck className="mr-2" size={30} />
-              <span>RAPIDEX</span>
+              <img src="/images/logo.png" className='w-32' alt="" />
             </span>
           </span>
         </div>
         
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#sobre" className="text-secondary hover:text-primary transition-colors duration-300">Sobre</a>
-          <a href="#diferenciais" className="text-secondary hover:text-primary transition-colors duration-300">Diferenciais</a>
-          <a href="#servicos" className="text-secondary hover:text-primary transition-colors duration-300">Serviços</a>
-          <a href="#clientes" className="text-secondary hover:text-primary transition-colors duration-300">Clientes</a>
-          <a href="#contato" className="text-secondary hover:text-primary transition-colors duration-300">Contato</a>
+          <a href="#sobre" className="text-white hover:text-primary transition-colors duration-300">Sobre</a>
+          <a href="#diferenciais" className="text-white hover:text-primary transition-colors duration-300">Diferenciais</a>
+          <a href="#servicos" className="text-white hover:text-primary transition-colors duration-300">Serviços</a>
+          <a href="#clientes" className="text-white hover:text-primary transition-colors duration-300">Clientes</a>
+          <a href="#contato" className="text-white hover:text-primary transition-colors duration-300">Contato</a>
         </nav>
         
         {/* Desktop CTA */}

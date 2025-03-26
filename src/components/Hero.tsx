@@ -8,10 +8,9 @@ const Hero = () => {
     <section className="relative h-screen flex items-center overflow-hidden">
       {/* Background image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
+        className="absolute inset-0 bg-cover bg-right md:bg-center bg-no-repeat z-0"
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1632276536839-84cad7fd03b0?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
-          filter: 'brightness(0.7)'
+          backgroundImage: "url('https://img.freepik.com/free-photo/traffic-highway_1359-4.jpg?t=st=1742993734~exp=1742997334~hmac=7d01820cdece6b0d6c333718eb0340f48ba00385118cadba91bd0654be71d79f&w=996')",
         }}
       />
       
@@ -44,7 +43,7 @@ const Hero = () => {
       </div>
       
       {/* Overlay gradient */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-black/20 z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-black/70 z-0"></div>
     </section>
   );
 };
