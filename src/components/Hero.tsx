@@ -10,7 +10,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-right md:bg-center bg-no-repeat z-0"
         style={{ 
-          backgroundImage: "url('https://img.freepik.com/free-photo/traffic-highway_1359-4.jpg?t=st=1742993734~exp=1742997334~hmac=7d01820cdece6b0d6c333718eb0340f48ba00385118cadba91bd0654be71d79f&w=996')",
+          backgroundImage: "url('/images/wmremove-transformed (1).jpeg')",
         }}
       />
       
