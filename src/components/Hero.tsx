@@ -17,10 +17,10 @@ const Hero = () => {
       {/* Content */}
       <div className="container-custom relative z-10 pt-20">
         <div className="max-w-3xl animate-fade-in" style={{ animationDelay: '0.3s' }}>
-          {/* Logo in orange box */}
+          {/* Logo without orange background */}
           <div className="mb-6 inline-block">
-            <div className="bg-primary p-4 rounded-md border-2 border-primary shadow-lg">
-              <img src="/images/logo.png" alt="Rapidex Logo" className="w-40 md:w-48" />
+            <div className="p-4">
+              <img src="/images/logo.png" alt="Rapidex Logo" className="w-[768px]" />
             </div>
             <p className="text-white text-xl mt-3 italic font-medium">
               "Nós fazemos o possível, o impossível, só Deus."
