@@ -41,7 +41,7 @@ const Contact = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="appear-anim">
             <div className="space-y-8">
               <div className="flex items-start">
@@ -49,12 +49,23 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Endereço</h3>
-                  <p className="text-gray-600">
-                    Tatuí: Rua Professora Maria de Lourdes Sinisgali, nº 412 - Jd Wanderley - Tatuí/SP
-                    <br />
-                    São Paulo: Rua Doutor Ribeiro de Almeida, nº 323 - Barra Funda/SP
-                  </p>
+                  <h3 className="text-xl font-semibold mb-2">Endereços</h3>
+                  <div className="space-y-4">
+                    <div className="rounded-lg bg-gray-50 p-4 border-l-4 border-primary">
+                      <p className="font-semibold text-lg">Tatuí</p>
+                      <p className="text-gray-600">
+                        Rua Professora Maria de Lourdes Sinisgali, nº 412<br />
+                        Jd Wanderley - Tatuí/SP
+                      </p>
+                    </div>
+                    <div className="rounded-lg bg-gray-50 p-4 border-l-4 border-primary">
+                      <p className="font-semibold text-lg">São Paulo</p>
+                      <p className="text-gray-600">
+                        Rua Doutor Ribeiro de Almeida, nº 323<br />
+                        Barra Funda - São Paulo/SP
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
               
@@ -111,29 +122,39 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
-              
-              <div className="pt-4">
-                <h3 className="text-xl font-semibold mb-3">Cidades Atendidas</h3>
-                <p className="text-gray-600">
-                  São Paulo (Capital e Grande São Paulo), Tatuí, Sorocaba, Campinas, Ribeirão Preto
-                  e todas as principais cidades do estado, com capacidade para entregas em todo o Brasil.
-                </p>
-              </div>
             </div>
           </div>
           
-          <div className="appear-anim h-[400px] md:h-[500px] rounded-xl overflow-hidden shadow-lg">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58906.41353899428!2d-47.8965509!3d-23.345998300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5d8f03b548433%3A0xac526b79b2d56b7b!2sTatu%C3%AD%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1715452034532!5m2!1spt-BR!2sbr"
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }} 
-              allowFullScreen 
-              loading="lazy" 
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Localização Rapidex Transportes"
-              className="rounded-xl"
-            ></iframe>
+          <div className="appear-anim space-y-6">
+            <h3 className="text-xl font-semibold">Nossas Localizações</h3>
+            <div className="grid grid-cols-1 gap-6">
+              <div className="h-[250px] rounded-xl overflow-hidden shadow-lg">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.5245556605403!2d-47.84935112377704!3d-23.512663959492244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58a922ae3da9f%3A0x56f05afe9c70f09b!2sR.%20Profa.%20Maria%20de%20Lourdes%20Sinisgalli%2C%20412%20-%20Jardim%20Wanderley%2C%20Tatu%C3%AD%20-%20SP%2C%2018278-471!5e0!3m2!1spt-BR!2sbr!4v1716248642318!5m2!1spt-BR!2sbr"
+                  width="100%" 
+                  height="100%" 
+                  style={{ border: 0 }} 
+                  allowFullScreen 
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Localização Rapidex Transportes - Tatuí"
+                  className="rounded-xl"
+                ></iframe>
+              </div>
+              <div className="h-[250px] rounded-xl overflow-hidden shadow-lg">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3003724601946!2d-46.66594982377685!3d-23.521800359536097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57f3be2be02d%3A0x9658239558f6e52e!2sR.%20Dr.%20Ribeiro%20de%20Almeida%2C%20323%20-%20Barra%20Funda%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001137-010!5e0!3m2!1spt-BR!2sbr!4v1716248751736!5m2!1spt-BR!2sbr"
+                  width="100%" 
+                  height="100%" 
+                  style={{ border: 0 }} 
+                  allowFullScreen 
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Localização Rapidex Transportes - São Paulo"
+                  className="rounded-xl"
+                ></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </div>

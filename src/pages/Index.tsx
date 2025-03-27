@@ -8,6 +8,7 @@ import Services from '../components/Services';
 import Clients from '../components/Clients';
 import Locations from '../components/Locations';
 import Contact from '../components/Contact';
+import CitiesServed from '../components/CitiesServed';
 import WorkProcess from '../components/WorkProcess';
 import LastCTA from '../components/LastCTA';
 import Footer from '../components/Footer';
@@ -61,6 +62,7 @@ const Index = () => {
         <Differentials />
         <Services />
         <Clients />
+        <CitiesServed />
         <Locations />
         <WorkProcess />
         <Contact />

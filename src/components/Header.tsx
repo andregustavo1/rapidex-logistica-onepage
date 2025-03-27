@@ -31,7 +31,7 @@ const Header = () => {
         <div className="flex items-center">
           <span className="text-2xl font-bold text-primary">
             <span className="flex items-center">
-              <img src="/images/logo.png" className='w-32' alt="" />
+              <img src="/images/logo.png" className='w-36 md:w-40' alt="Rapidex Transportes Logo" />
             </span>
           </span>
         </div>

@@ -11,8 +11,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <div className="flex items-center mb-6">
-              <Truck className="mr-2" size={24} />
-              <span className="text-2xl font-bold">RAPIDEX</span>
+              <img src="/images/logo.png" className="w-36 mb-2" alt="Rapidex Transportes Logo" />
             </div>
             <p className="text-gray-300 mb-6">
               Soluções logísticas eficientes em frete fracionado e dedicado, atendendo diariamente São Paulo, capital e grande São Paulo, com capacidade de entrega para todo o Brasil.
@@ -48,18 +47,12 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="text-gray-300">Frete Fracionado</li>
               <li className="text-gray-300">Frete Dedicado</li>
-              <li className="text-gray-300">Transporte Estadual</li>
-              <li className="text-gray-300">Transporte Nacional</li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-xl font-semibold mb-6">Contato</h3>
             <ul className="space-y-4">
-              <li className="flex items-start">
-                <MapPin className="mr-2 mt-1 text-primary" size={18} />
-                <span className="text-gray-300">Rua Principal, N° 100 - Tatuí - SP, 18270-000</span>
-              </li>
               <li className="flex items-start">
                 <Phone className="mr-2 mt-1 text-primary" size={18} />
                 <a 
