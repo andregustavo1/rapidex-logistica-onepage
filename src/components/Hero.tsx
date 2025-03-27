@@ -17,6 +17,16 @@ const Hero = () => {
       {/* Content */}
       <div className="container-custom relative z-10 pt-20">
         <div className="max-w-3xl animate-fade-in" style={{ animationDelay: '0.3s' }}>
+          {/* Logo in orange box */}
+          <div className="mb-6 inline-block">
+            <div className="bg-primary p-4 rounded-md border-2 border-primary shadow-lg">
+              <img src="/images/logo.png" alt="Rapidex Logo" className="w-40 md:w-48" />
+            </div>
+            <p className="text-white text-xl mt-3 italic font-medium">
+              "Nós fazemos o possível, o impossível, só Deus."
+            </p>
+          </div>
+          
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight text-shadow mb-4">
             Soluções Logísticas Completas para sua Empresa
           </h1>
