@@ -6,6 +6,7 @@ import About from '../components/About';
 import Differentials from '../components/Differentials';
 import Services from '../components/Services';
 import Clients from '../components/Clients';
+import Locations from '../components/Locations';
 import Contact from '../components/Contact';
 import WorkProcess from '../components/WorkProcess';
 import LastCTA from '../components/LastCTA';
@@ -60,6 +61,7 @@ const Index = () => {
         <Differentials />
         <Services />
         <Clients />
+        <Locations />
         <WorkProcess />
         <Contact />
         <LastCTA />

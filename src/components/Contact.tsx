@@ -51,7 +51,9 @@ const Contact = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Endereço</h3>
                   <p className="text-gray-600">
-                    Rua Principal, N° 100 - Tatuí - SP, 18270-000
+                    Tatuí: Rua Professora Maria de Lourdes Sinisgali, nº 412 - Jd Wanderley - Tatuí/SP
+                    <br />
+                    São Paulo: Rua Doutor Ribeiro de Almeida, nº 323 - Barra Funda/SP
                   </p>
                 </div>
               </div>
