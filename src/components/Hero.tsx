@@ -22,7 +22,7 @@ const Hero = () => {
             <div>
               <img src="/images/logo.png" alt="Rapidex Logo" className="w-[600px]" />
             </div>
-            <p className="text-white text-xl italic font-medium" style={{ textShadow: '0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000' }}>
+            <p className="text-white text-2xl italic font-medium text-shadow" style={{ textShadow: '0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000' }}>
               "Nós fazemos o possível, o impossível, só Deus."
             </p>
           </div>
