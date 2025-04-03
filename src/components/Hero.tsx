@@ -19,10 +19,10 @@ const Hero = () => {
         <div className="max-w-3xl animate-fade-in" style={{ animationDelay: '0.3s' }}>
           {/* Logo without orange background */}
           <div className="mb-6 inline-block">
-            <div className="p-4">
-              <img src="/images/logo.png" alt="Rapidex Logo" className="w-[768px]" />
+            <div>
+              <img src="/images/logo.png" alt="Rapidex Logo" className="w-[600px]" />
             </div>
-            <p className="text-white text-xl mt-3 italic font-medium">
+            <p className="text-white text-xl italic font-medium" style={{ textShadow: '0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000' }}>
               "Nós fazemos o possível, o impossível, só Deus."
             </p>
           </div>
