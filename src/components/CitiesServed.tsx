@@ -4,7 +4,7 @@ import { MapPin } from 'lucide-react';
 
 const CitiesServed = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
-  const whatsappUrl = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Rapidex";
+  const whatsappUrl = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda";
   
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {

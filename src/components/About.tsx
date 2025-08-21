@@ -28,7 +28,7 @@ const About = () => {
     };
   }, []);
 
-  const whatsappUrl = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Rapidex";
+  const whatsappUrl = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda";
 
   return (
     <section ref={sectionRef} id="sobre" className="section-padding bg-white">
@@ -45,7 +45,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="appear-anim">
             <p className="mb-6 text-lg">
-              A Rapidex Transportes é especializada em soluções logísticas eficientes, oferecendo serviços de frete fracionado e dedicado para empresas de todos os portes.
+              A Garuda Transportes é especializada em soluções logísticas eficientes, oferecendo serviços de frete fracionado e dedicado para empresas de todos os portes.
             </p>
             <p className="mb-6 text-lg">
               Atendemos diariamente São Paulo capital e grande São Paulo, com capacidade de entrega para todo o Brasil, garantindo que sua carga chegue ao destino com segurança e pontualidade.

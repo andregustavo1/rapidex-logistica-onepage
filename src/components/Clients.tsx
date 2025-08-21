@@ -50,7 +50,7 @@ const Clients = () => {
             Alguns de Nossos Clientes
           </h2>
           <p className="section-subtitle appear-anim">
-            Empresas que confiam na Rapidex para suas necessidades logísticas
+            Empresas que confiam na Garuda para suas necessidades logísticas
           </p>
         </div>
         
@@ -72,7 +72,7 @@ const Clients = () => {
         
         <div className="mt-16 text-center appear-anim">
           <p className="text-xl font-medium">
-            Junte-se a dezenas de empresas que confiam na Rapidex para suas operações logísticas
+            Junte-se a dezenas de empresas que confiam na Garuda para suas operações logísticas
           </p>
         </div>
       </div>

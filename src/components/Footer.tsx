@@ -1,7 +1,7 @@
 import React from 'react';
 import { Truck, Mail, Phone, MapPin } from 'lucide-react';
 const Footer = () => {
-  const whatsappUrl = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Rapidex";
+  const whatsappUrl = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda";
   return <footer className="bg-secondary text-white">
       <div className="container-custom py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
@@ -58,11 +58,11 @@ const Footer = () => {
               <li className="flex items-start">
                 <Mail className="mr-2 mt-1 text-primary" size={18} />
                 <div>
-                  <a href="mailto:tatuirapidex@gmail.com" className="text-gray-300 hover:text-primary transition-colors block">
-                    tatuirapidex@gmail.com
+                  <a href="mailto:tatuigaruda@gmail.com" className="text-gray-300 hover:text-primary transition-colors block">
+                    tatuigaruda@gmail.com
                   </a>
-                  <a href="mailto:coletasrapidex@gmail.com" className="text-gray-300 hover:text-primary transition-colors block">
-                    coletasrapidex@gmail.com
+                  <a href="mailto:coletasgaruda@gmail.com" className="text-gray-300 hover:text-primary transition-colors block">
+                    coletasgaruda@gmail.com
                   </a>
                 </div>
               </li>
@@ -72,7 +72,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            © 2025 Rapidex Transportes. Todos os direitos reservados.
+            © 2025 Garuda Transportes. Todos os direitos reservados.
           </p>
         </div>
       </div>

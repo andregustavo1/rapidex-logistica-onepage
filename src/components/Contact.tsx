@@ -4,7 +4,7 @@ import { MapPin, Mail, Phone } from 'lucide-react';
 
 const Contact = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
-  const whatsappUrl = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Rapidex";
+  const whatsappUrl = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda";
   
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -86,7 +86,7 @@ const Contact = () => {
                     </a>
                     <br />
                     <a 
-                      href="https://api.whatsapp.com/send?phone=5515996694005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Rapidex" 
+                      href="https://api.whatsapp.com/send?phone=5515996694005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-primary transition-colors"
@@ -105,19 +105,19 @@ const Contact = () => {
                   <h3 className="text-xl font-semibold mb-2">E-mail</h3>
                   <p className="text-gray-600">
                     <a 
-                      href="mailto:tatuirapidex@gmail.com" 
+                      href="mailto:tatuigaruda@gmail.com" 
                       className="hover:text-primary transition-colors"
                     >
-                      tatuirapidex@gmail.com
+                      tatuigaruda@gmail.com
                     </a>
                     <br />
                     <span className="font-medium">E-mail Coletas:</span>
                     <br />
                     <a 
-                      href="mailto:coletasrapidex@gmail.com" 
+                      href="mailto:coletasgaruda@gmail.com" 
                       className="hover:text-primary transition-colors"
                     >
-                      coletasrapidex@gmail.com
+                      coletasgaruda@gmail.com
                     </a>
                   </p>
                 </div>
@@ -137,7 +137,7 @@ const Contact = () => {
                   allowFullScreen 
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Localização Rapidex Transportes - Tatuí"
+                  title="Localização Garuda Transportes - Tatuí"
                   className="rounded-xl"
                 ></iframe>
               </div>
@@ -150,7 +150,7 @@ const Contact = () => {
                   allowFullScreen 
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Localização Rapidex Transportes - São Paulo"
+                  title="Localização Garuda Transportes - São Paulo"
                   className="rounded-xl"
                 ></iframe>
               </div>

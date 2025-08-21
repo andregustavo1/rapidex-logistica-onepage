@@ -1,6 +1,6 @@
 import React from 'react';
 const Hero = () => {
-  const whatsappUrl = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Rapidex";
+  const whatsappUrl = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda";
   return <section className="relative h-screen flex items-center overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0 bg-cover bg-right md:bg-center bg-no-repeat z-0" style={{

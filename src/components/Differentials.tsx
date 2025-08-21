@@ -4,7 +4,7 @@ import { Clock, Shield, Radio, TrendingUp } from 'lucide-react';
 
 const Differentials = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
-  const whatsappUrl = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Rapidex";
+  const whatsappUrl = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda";
   
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -37,7 +37,7 @@ const Differentials = () => {
             Nossos Diferenciais Logísticos
           </h2>
           <p className="section-subtitle appear-anim">
-            Conheça o que faz da Rapidex a melhor escolha para sua empresa
+            Conheça o que faz da Garuda a melhor escolha para sua empresa
           </p>
         </div>
         

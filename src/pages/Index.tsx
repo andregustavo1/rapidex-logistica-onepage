@@ -42,7 +42,7 @@ const Index = () => {
 
   // Override document title for PT-BR
   useEffect(() => {
-    document.title = "Rapidex Transportes | Soluções Logísticas";
+    document.title = "Garuda Transportes | Soluções Logísticas";
     // Set meta description for SEO
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {

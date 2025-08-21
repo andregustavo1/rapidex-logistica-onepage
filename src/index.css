@@ -98,12 +98,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #FF6B00;
+  background: #DC2626;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #CC5600;
+  background: #B91C1C;
 }
 
 /* Utility classes */
