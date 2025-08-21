@@ -14,13 +14,13 @@ const Header = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [scrolled]);
-  const whatsappUrl = "https://api.whatsapp.com/send?phone=5511987940150&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda";
+  const whatsappUrl = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Rapidex";
   return <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${scrolled ? 'bg-black/60 backdrop-blur-sm shadow-md py-3' : 'bg-transparent py-5'}`}>
       <div className="container-custom flex justify-between items-center">
         <div className="flex items-center">
           <span className="text-2xl font-bold text-primary">
             <span className="flex items-center">
-              Garuda Transportes
+              
             </span>
           </span>
         </div>
@@ -39,9 +39,7 @@ const Header = () => {
         </a>
         
         {/* Mobile CTA */}
-        <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className={`btn-primary ${scrolled ? 'bg-primary' : 'bg-primary'} md:hidden text-sm px-4 py-2`}>
-          Contate-nos
-        </a>
+        <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className={`btn-primary ${scrolled ? 'bg-primary' : 'bg-primary'} md:hidden text-sm px-4 py-2`}>Contato</a>
       </div>
     </header>;
 };
