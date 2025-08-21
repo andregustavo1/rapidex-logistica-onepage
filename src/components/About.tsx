@@ -28,7 +28,7 @@ const About = () => {
     };
   }, []);
 
-  const whatsappUrl = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda";
+  const whatsappUrl = "https://api.whatsapp.com/send?phone=5511987940150&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda";
 
   return (
     <section ref={sectionRef} id="sobre" className="section-padding bg-white">

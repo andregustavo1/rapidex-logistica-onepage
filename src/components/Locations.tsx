@@ -5,8 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const Locations = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
-  const whatsappUrlTatui = "https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda";
-  const whatsappUrlSP = "https://api.whatsapp.com/send?phone=5515996694005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda";
+  const whatsappUrlTatui = "https://api.whatsapp.com/send?phone=5511987940150&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda";
+  const whatsappUrlSP = "https://api.whatsapp.com/send?phone=5511987940150&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda";
   
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -102,7 +102,7 @@ const Locations = () => {
                       rel="noopener noreferrer"
                       className="block hover:text-primary transition-colors"
                     >
-                      (15) 99828-4005
+                      (11) 98794-0150
                     </a>
                     <a 
                       href={whatsappUrlSP}
@@ -110,7 +110,7 @@ const Locations = () => {
                       rel="noopener noreferrer"
                       className="block hover:text-primary transition-colors"
                     >
-                      (15) 99669-4005
+                      (11) 98794-0150
                     </a>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ const Locations = () => {
         
         <div className="mt-10 text-center">
           <a 
-            href="https://api.whatsapp.com/send?phone=5515998284005&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda" 
+            href="https://api.whatsapp.com/send?phone=5511987940150&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Garuda" 
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary inline-block appear-anim"
