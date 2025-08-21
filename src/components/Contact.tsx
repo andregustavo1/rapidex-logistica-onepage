@@ -36,12 +36,12 @@ const Contact = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-12 items-start">
+        <div className="flex justify-center gap-12 items-center">
           <div className="appear-anim">
             <div className="space-y-8">
               
               
-              <div className="flex items-start">
+              <div className="flex justify-center items-center">
                 <div className="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 mr-4 mt-1">
                   <Phone className="w-6 h-6 text-primary" />
                 </div>

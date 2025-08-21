@@ -62,8 +62,6 @@ const Index = () => {
         <Differentials />
         <Services />
         <Clients />
-        <CitiesServed />
-        <Locations />
         <WorkProcess />
         <Contact />
         <LastCTA />
